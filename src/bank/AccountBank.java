@@ -1,4 +1,4 @@
-package src;
+package src.bank;
 
 public class AccountBank {
     private int numberAccount;

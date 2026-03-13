@@ -1,4 +1,4 @@
-package src;
+package src.student;
 
 public class Student {
     private String name;
@@ -22,7 +22,8 @@ public class Student {
         double average = calculateAverage();
         String msg;
 
-       return  msg = average >= 7 ? "Aprovado" : "Reprovado";
+        msg = average >= 7 ? "Aprovado" : "Reprovado";
+        return msg;
     }
 
     public String displayResult(){
