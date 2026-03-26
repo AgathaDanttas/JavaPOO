@@ -1,9 +1,6 @@
 //import src.student.*;
-import src.rectangle.*;
-import src.employee.Employee;
-import src.product.Product;
-import src.Library.Library;
 import src.Library.Book;
+import src.Library.Library;
 
 public class Main{
     public static void main(String args[]){
@@ -38,7 +35,12 @@ public class Main{
         System.out.println(library.listBooks());
         System.out.println("");
       }
+    
       
-
+      //Vetores
+      int[] numeros = new int[10];
+      for (int i = 0; i < 10; i++) {
+          System.out.println("Informe o "+ i+ " numero:");
+      }
     }
 }
